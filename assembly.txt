@@ -1,0 +1,24 @@
+# Example Assembly Code
+
+# Initialize registers
+ADDI $R1, $zero, 120     
+ADDI $R2, $zero, 10     
+
+# Perform arithmetic operations
+add $R2, $R0, $R1 , 0    
+sub $R3, $R0, $R1 , 0    
+
+
+# Perform immediate operations
+addi $R5, $R2, 5       
+andi $R6, $R1, 3      
+ori $R7, $R0, 12       
+
+
+# Load word from memory
+lw $R4, $zero , 1
+
+# Store word to memory
+sw $R1, $zero , 3         
+
+
